@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Catálogo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <div class="logo">
+            💄 Mi Catálogo
+        </div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="pages/contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- INICIO -->
+    <section id="inicio" class="hero">
+        <div>
+            <h1>Bienvenido a nuestro catálogo</h1>
+            <p>Encuentra los mejores productos en un solo lugar.</p>
+
+            <a href="#productos" class="btn">
+                Ver productos
+            </a>
+        </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="productos">
+
+        <h2>Nuestros productos</h2>
+
+        <div class="contenedor-productos">
+
+            <!-- PRODUCTO 1 -->
+            <div class="producto">
+                <img src="img/img1.png" alt="Producto 1">
+
+                <h3>TOO FACED</h3>
+
+                <p>Pestañina A Prueba de Agua Better Than Sex Waterproof Mascara.</p>
+
+                <span class="precio">$ 131.000</span>
+
+                <button onclick="agregarProducto('TOO FACED')">
+                    Agregar
+                </button>
+            </div>
+
+            <!-- PRODUCTO 2 -->
+            <div class="producto">
+                <img src="img/img2.png" alt="Producto 2">
+
+                <h3>TOO FACED</h3>
+
+                <p>Corrector Born This Way Super Coverage Multi-Use Sculpting Concealer - Nude  .</p>
+
+                <span class="precio">$ 222.000</span>
+
+                <button onclick="agregarProducto('TOO FACED')">
+                    Agregar
+                </button>
+            </div>
+
+            <!-- PRODUCTO 3 -->
+            <div class="producto">
+                <img src="img/img3.png" alt="Producto 3">
+
+                <h3>TOO FACED</h3>
+
+                <p>Sombras de Ojos y Cara Disco Crush - Mystic Pink</p>
+
+                <span class="precio">$ 145.000</span>
+
+                <button onclick="agregarProducto('TOO FACED')">
+                    Agregar
+                </button>
+            </div>
+
+            <!-- PRODUCTO 4 -->
+            <div class="producto">
+                <img src="img/img4.png" alt="Producto 4">
+
+                <h3>TOO FACED</h3>
+
+                <p>Iluminador Born This Way Super Glow - Opalescent</p>
+
+                <span class="precio">$ 149.000</span>
+
+                <button onclick="agregarProducto('TOO FACED')">
+                    Agregar
+                </button>
+            </div>
+
+            <!-- PRODUCTO 5 -->
+            <div class="producto">
+                <img src="img/img5.png" alt="Producto 5">
+
+                <h3>TOO FACED</h3>
+
+                <p>Brillo Voluminizador Lip Injection Maximum Plump</p>
+
+                <span class="precio">$80.000</span>
+
+                <button onclick="agregarProducto('TOO FACED')">
+                    Agregar
+                </button>
+            </div>
+
+            <!-- PRODUCTO 6 -->
+            <div class="producto">
+                <img src="img/img6.png" alt="Producto 6">
+
+                <h3>TOO FACED</h3>
+
+                <p>Lápiz Multiuso Chocolate Soleil Multi-Use Sculpting Pencil - Milk Chocolate</p>
+
+                <span class="precio">$ 81.000</span>
+
+                <button onclick="agregarProducto('TOO FACED')">
+                    Agregar
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2026 Mi Catálogo | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
